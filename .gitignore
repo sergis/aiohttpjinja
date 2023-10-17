@@ -1,0 +1,39 @@
+/.web-server-pid
+/var/*
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!var/db
+/var/db/*
+!var/db/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+/*.sublime*
+/.idea/
+/bin/
+/build/
+/dist/
+/include/
+/lib/
+/man/
+/share/
+/src/
+/venv*/
+/vendor/
+/dev_*
+/clone*
+/config.py
+/server*
+__pycache*
+#crbinspect/__pycache__/*
+#crbinspect/__pycache*
+.DS_Store
+*.bak
+.env
+# setup.py egg_info
+*.egg-info
+# emacs backup files
+*~
+*.orig
+# various virtualenv
